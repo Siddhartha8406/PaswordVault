@@ -37,7 +37,7 @@ def authenticate(uname, password):
 
 authenticate('moti_atma', 'test1432')
 
-'''if __name__=='__main__':
+if __name__=='__main__':
     uname = str(input("Enter Username: "))
     password = input('Enter the password: ')
 
@@ -45,4 +45,4 @@ authenticate('moti_atma', 'test1432')
     if a == password:
         print("Ok")
     else:
-        print("Hattttttttt")'''
+        print("Hattttttttt")
